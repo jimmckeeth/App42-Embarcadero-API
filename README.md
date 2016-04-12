@@ -1,4 +1,6 @@
-# App42-AppMethod-API
+# App42-Embarcadero-API
+
+Udpating to work with Seattle release . . . . stay tuned.
 
 # Register and Create App
 
@@ -14,13 +16,9 @@ Here are the following steps to get started with App42 platform
 
 * Once App is created, you will get an ApiKey/SecretKey along with AdminKey that you will use in your app for  initialization of SDK.
 
-# Download and Set up SDK
+# Download and Set up SDK from GitHub
 
-* [Download](https://github.com/shephertz/App42-AppMethod-API/archive/master.zip) AppMethod SDK
-
-* Unzip downloaded Zip file. 
-
-* Go to Component -> Install Package in the [AppMethod IDE](http://docwiki.appmethod.com/appmethod/1.13/topics/en/Install_Component)
+* Go to Component -> Install Package in the [IDE](http://docwiki.embarcadero.com/RADStudio/en/Install_Component)
 
 * Click the "Add.." button, now you have to navigate to the unzip folder where the Package Library file (dclApp42RESTApis.bpl) are found and click the 'Open' button to add the component package to the IDE. 
 
@@ -28,7 +26,7 @@ Here are the following steps to get started with App42 platform
 
 * Drag and Drop the TApp42Provider component in design view of App. Click on App42Provider1, now you can see the     Properties and events  in Object Inspector.
 
-* __Delphi-__ Make sure to give the _App42-AppMethod-API/dist/dcu/_ path to the project's search path of desired platform, [See here for details](http://docwiki.embarcadero.com/RADStudio/XE6/en/Installing_Component_Packages).
+* __Delphi-__ Make sure to give the _App42-AppMethod-API/dist/dcu/_ path to the project's search path of desired platform, [See here for details](http://docwiki.embarcadero.com/RADStudio/en/Installing_Component_Packages).
 
 * __C++ -__ For C++ give the _App42-AppMethod-API/dist/C++/hpp_ and _App42-AppMethod-API/dist/C++/ObjLib_ path to the project's include path of desired platform.
 
@@ -38,4 +36,4 @@ Here are the following steps to get started with App42 platform
 
 * Now you are ready to use App42 services in your project.
 
-* You can also build and run [AppMethod Sample](https://github.com/shephertz/App42-AppMethod-API/tree/master/sample) available under sample folder of unzipped folder to get started quickly. 
+* You can also build and run AppMethod Sample available under sample folder of unzipped folder to get started quickly. 
